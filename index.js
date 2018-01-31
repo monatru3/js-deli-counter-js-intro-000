@@ -24,7 +24,7 @@ function currentLine(katzDeliLine){
     for (var i=0; i<katzDeliLine.length; i++) {
     var name= katzDeliLine[i]
     var spot=katzDeliLine.indexOf(name)+1+"."
-
+    katzDeliLine.splice(0, katzDeliLine.length)
     }
     return `The line is currently: ${katzDeliLine}`
   }
