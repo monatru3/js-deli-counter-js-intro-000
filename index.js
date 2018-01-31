@@ -26,6 +26,6 @@ function currentLine(katzDeliLine){
     var spot=katzDeliLine.indexOf(name)+1+". "
     katzDeliLine.splice(i, 1, spot+name)
     }
-    return `The line is currently: ${katzDeliLine.join(",")}`
+    return `The line is currently: ${katzDeliLine.join(", ")}`
   }
 }
