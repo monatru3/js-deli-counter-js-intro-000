@@ -26,6 +26,6 @@ function currentLine(katzDeliLine){
     var spot=katzDeliLine.indexOf(name)+1+"."
 
     }
-    return `The line is currently: ${spot}`
+    return `The line is currently: ${katzDeliLine}`
   }
 }
